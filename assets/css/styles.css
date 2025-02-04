@@ -9,12 +9,20 @@
   display: flex;
   flex-direction: column;
   background-color: #111D4A;
+  width: 90%;
+  margin: 0 auto;
+  
    
 }
 .card-image{
   
+  object-fit: cover;
+  flex-basis: 150px;
+  min-width: 0;
+  min-height: 0;
+  /*para que flex-basis funcione de forma correcta debe usarse con min-width
+  y min-height*/
   
-  height: 30vh;
 }
 
 .card-title{
@@ -41,4 +49,33 @@
   background-color: #05CBE9;
   color: #111D4A;
   padding: .5em 2em;
+  font-weight: 600;
+}
+
+@media screen and (min-width:600px){
+  .card{
+    flex-direction: row;
+    max-width: 850px;
+  }
+  .card-image{
+    flex: 1;
+    height: auto;
+  }
+  .card-content{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+  }
+  .card-content h1{
+    font-size: 2.2rem;
+    text-align: center;
+  }
+ .card-text{
+  font-size: 1.2rem;
+ }
+ .card-content section{
+  justify-content: space-around;
+ }
 }
