@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", serif;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #111D4A;
+   
+}
+.card-image{
+  
+  
+  height: 30vh;
+}
+
+.card-title{
+  color: #05CBE9;
+  margin-block: 1em;
+ 
+}
+.card-text{
+  color: #ffffff;
+  margin-block: 1em;
+}
+.card-content section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-content{
+  padding: 1em;
+}
+
+.card-content section a{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #05CBE9;
+  color: #111D4A;
+  padding: .5em 2em;
+}
