@@ -5,6 +5,12 @@
   font-family: "Source Sans 3", serif;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .card{
   display: flex;
   flex-direction: column;
