@@ -2,5 +2,5 @@
 Card component with flexbox
 
 <div align="center">
-    <img src="./assets/images/view.png"</img> 
+    <img src="./assets/images/view.jpg"</img> 
 </div>
